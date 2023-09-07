@@ -60,6 +60,7 @@ group :development, :test do
   gem 'orderly'
   gem 'webmock'
   gem 'vcr'
+  gem 'faraday'
 end
 
 group :development do
