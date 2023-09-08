@@ -1,4 +1,4 @@
-h1 {
+h1, .market-address {
   text-align: center;
 }
 
@@ -38,11 +38,26 @@ tbody tr:hover {
   font-weight: bold;
   background-color: #dfdfdc;
 }
-.market-link a {
+.market-link a, .market-vendors a {
   text-decoration: none;
   color: #566246;
 }
 
-.market-link a:hover {
+.market-link a:hover, .market-vendors a:hover {
+  font-weight: bold;
   text-decoration: underline;
+}
+
+.market-address {
+  margin-top: 30px;
+  color: #566246;
+}
+
+.market-vendors {
+  margin-left: 15%;
+  margin-top: 40px;
+}
+
+.market-vendors p {
+  margin-left: 10px;
 }
