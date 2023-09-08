@@ -12,6 +12,10 @@ class MarketsService
     get_url('/api/v0/markets')
   end
 
+  def get_vendor(id)
+    get_url("/api/v0/vendors/#{id}")
+  end
+
   def get_url(url)
     response = conn.get(url)
     JSON.parse(response.body, symbolize_names: true)

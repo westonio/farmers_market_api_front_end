@@ -1,14 +1,14 @@
 require 'rails_helper'
 
-RSpec.describe MarketsFacade do
+RSpec.describe FarmersMarketsFacade do
   before(:each) do
     @id = 325933 # Henry County Farmers Market
-    @facade = MarketsFacade.new
+    @facade = FarmersMarketsFacade.new
   end
 
   describe 'Market Facade Instance Methods', :vcr  do
     it 'exists' do
-      expect(@facade).to be_a(MarketsFacade)
+      expect(@facade).to be_a(FarmersMarketsFacade)
     end
 
     it 'can get all markets' do

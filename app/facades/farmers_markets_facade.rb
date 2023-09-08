@@ -1,4 +1,4 @@
-class MarketsFacade
+class FarmersMarketsFacade
   def markets
     json = MarketsService.new.get_markets
     json[:data].map do |market_data|
@@ -16,5 +16,10 @@ class MarketsFacade
     json[:data].map do |vendor_data|
       Vendor.new(vendor_data)
     end
+  end
+
+  def vendor(id)
+    json = MarketsService.new.get_vendor(id)
+    Vendor.new(json[:data])
   end
 end
