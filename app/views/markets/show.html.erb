@@ -3,3 +3,10 @@
 <div class="market-address">
   <h3><%= @market.address %></h3>
 </div>
+
+<div class="market-vendors">
+  <h4>Vendors at our Market:</h4>
+  <% @vendors.each do |vendor| %>
+    <p class="vendor-link"><%= link_to "#{vendor.name}", vendor_path(vendor.id) %></p>
+  <% end %>
+</div>
