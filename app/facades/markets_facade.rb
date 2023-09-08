@@ -5,4 +5,9 @@ class MarketsFacade
       Market.new(market_data)
     end
   end
+
+  def market(id)
+    json = MarketsService.new.get_market(id)
+    Market.new(json[:data])
+  end
 end

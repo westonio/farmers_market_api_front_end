@@ -1,5 +1,9 @@
 class MarketsService 
 
+  def get_market(id)
+    get_url("/api/v0/markets/#{id}")
+  end
+
   def get_markets
     get_url('/api/v0/markets')
   end

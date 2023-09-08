@@ -4,6 +4,7 @@ class MarketsController < ApplicationController
   end
 
   def show
-
+    facade = MarketsFacade.new
+    @market = facade.market(params[:id])
   end
 end
