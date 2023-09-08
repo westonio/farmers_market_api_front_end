@@ -27,12 +27,16 @@ end
     it 'has the required attributes' do
       expect(@market.id).to eq("322458")
       expect(@market.name).to eq("14&U Farmers' Market")
+      expect(@market.street).to eq("1400 U Street NW ")
       expect(@market.city).to eq("Washington")
       expect(@market.state).to eq("District of Columbia")
+      expect(@market.zip).to eq("20009")
     end
   end
 
   describe 'Instance Methods' do
-    
+    it 'concatenates the address' do
+      expect(@market.address).to eq("1400 U Street NW , Washington, District of Columbia 20009")
+    end
   end
 end
