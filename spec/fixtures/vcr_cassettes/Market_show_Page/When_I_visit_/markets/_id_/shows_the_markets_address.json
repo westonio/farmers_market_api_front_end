@@ -57,13 +57,13 @@
             "max-age=0, private, must-revalidate"
           ],
           "X-Request-Id": [
-            "4812f028-b868-4de2-b498-c4c0276a328c"
+            "cfd91efa-06ac-45b8-97d9-f3053255c750"
           ],
           "X-Runtime": [
-            "0.007866"
+            "0.008606"
           ],
           "Server-Timing": [
-            "start_processing.action_controller;dur=0.06, sql.active_record;dur=1.31, instantiation.active_record;dur=0.02, process_action.action_controller;dur=2.32"
+            "start_processing.action_controller;dur=0.05, sql.active_record;dur=1.24, instantiation.active_record;dur=0.02, process_action.action_controller;dur=2.65"
           ],
           "Transfer-Encoding": [
             "chunked"
@@ -74,7 +74,7 @@
           "string": "{\"data\":{\"id\":\"325933\",\"type\":\"market\",\"attributes\":{\"name\":\"Henry County Farmers Market\",\"street\":\"100 block of S Main Street\",\"city\":\"New Castle\",\"county\":\"Henry\",\"state\":\"Indiana\",\"zip\":\"47632\",\"lat\":\"39.9705\",\"lon\":\"-85.355\",\"vendor_count\":13}}}"
         }
       },
-      "recorded_at": "Fri, 08 Sep 2023 22:13:30 GMT"
+      "recorded_at": "Fri, 08 Sep 2023 23:23:11 GMT"
     },
     {
       "request": {
@@ -133,13 +133,13 @@
             "max-age=0, private, must-revalidate"
           ],
           "X-Request-Id": [
-            "73f566c0-2672-4586-8078-0e995f86e63a"
+            "bf91b396-4881-4546-b8e0-f04d96301a84"
           ],
           "X-Runtime": [
-            "0.007994"
+            "0.006317"
           ],
           "Server-Timing": [
-            "start_processing.action_controller;dur=0.06, sql.active_record;dur=2.03, instantiation.active_record;dur=0.07, process_action.action_controller;dur=3.12"
+            "start_processing.action_controller;dur=0.04, sql.active_record;dur=1.41, instantiation.active_record;dur=0.05, process_action.action_controller;dur=2.29"
           ],
           "Transfer-Encoding": [
             "chunked"
@@ -150,7 +150,7 @@
           "string": "{\"data\":[{\"id\":\"55636\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Elevated Elixir\",\"description\":\"Elevated kombucha with premium tea and herbs for a refined taste.\",\"contact_name\":\"Melida Hane LLD\",\"contact_phone\":\"928.894.1161\",\"credit_accepted\":false}},{\"id\":\"55467\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Caramel Craze\",\"description\":\"Crazy for caramel? We are too!\",\"contact_name\":\"Kim Rippin Esq.\",\"contact_phone\":\"1-981-893-1762\",\"credit_accepted\":true}},{\"id\":\"55918\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Java Junction\",\"description\":\"Freshly brewed coffee and espresso drinks made with locally sourced ingredients.\",\"contact_name\":\"Aundrea Crona\",\"contact_phone\":\"(398) 114-9231\",\"credit_accepted\":false}},{\"id\":\"55296\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Sacramento Sourdough\",\"description\":\"Artisan sourdough bread and other baked goods\",\"contact_name\":\"Alessandra Hermann\",\"contact_phone\":\"(197) 431-8380\",\"credit_accepted\":false}},{\"id\":\"56107\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Culinary Creations\",\"description\":\"Creative and unique dishes from the culinary experts.\",\"contact_name\":\"Fabian Muller\",\"contact_phone\":\"767.963.4664\",\"credit_accepted\":false}},{\"id\":\"55811\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Butcher's Block\",\"description\":\"Vendor selling a variety of fresh, locally sourced meat cuts.\",\"contact_name\":\"Barrie Kuhn\",\"contact_phone\":\"595.029.7750\",\"credit_accepted\":false}},{\"id\":\"55744\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Peppermint Pleasures\",\"description\":\"All-natural, peppermint-scented hygiene products.\",\"contact_name\":\"Wally Koepp\",\"contact_phone\":\"767.251.8294\",\"credit_accepted\":false}},{\"id\":\"55670\",\"type\":\"vendor\",\"attributes\":{\"name\":\"The Herbalist\",\"description\":\"Artisanal herbal teas and tinctures for health and wellness.\",\"contact_name\":\"Zachariah Langosh\",\"contact_phone\":\"(375) 412-4871\",\"credit_accepted\":true}},{\"id\":\"54969\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Melon-drama\",\"description\":\"This vendor sells a variety of fresh melons and melon-based products.\",\"contact_name\":\"Msgr. Ezequiel Bahringer\",\"contact_phone\":\"632.966.5521\",\"credit_accepted\":false}},{\"id\":\"56390\",\"type\":\"vendor\",\"attributes\":{\"name\":\"South Asian Spices and Sauces\",\"description\":\"Sells a variety of spices and sauces used in South Asian cuisine, including curry powders, chutneys, and pickles.\",\"contact_name\":\"Lezlie Auer\",\"contact_phone\":\"(753) 427-6572\",\"credit_accepted\":false}},{\"id\":\"55391\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Roast \\u0026 Toast\",\"description\":\"Freshly roasted nuts and coffee blends\",\"contact_name\":\"Bryan Wolff\",\"contact_phone\":\"1-176-664-1200\",\"credit_accepted\":true}},{\"id\":\"55257\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Rocky Mountain Ranch\",\"description\":\"Grass-fed bison meat raised in the Rocky Mountains.\",\"contact_name\":\"Miss Janell Stamm\",\"contact_phone\":\"566-370-2700\",\"credit_accepted\":false}},{\"id\":\"55581\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Pawperoni Pals\",\"description\":\"Handmade dog toys with squeakers\",\"contact_name\":\"Carmina Nikolaus\",\"contact_phone\":\"820.554.6975\",\"credit_accepted\":true}}]}"
         }
       },
-      "recorded_at": "Fri, 08 Sep 2023 22:13:30 GMT"
+      "recorded_at": "Fri, 08 Sep 2023 23:23:11 GMT"
     }
   ],
   "recorded_with": "VCR 6.2.0"

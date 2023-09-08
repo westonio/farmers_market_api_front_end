@@ -14,4 +14,12 @@ class Vendor
     @credit_accepted = data[:attributes][:credit_accepted]
     @description = data[:attributes][:description]
   end
+
+  def credit_accepted?
+    @credit_accepted ? "YES" : "NO"
+  end
+
+  def phone
+    @contact_phone.gsub('.','-')
+  end
 end

@@ -57,13 +57,13 @@
             "max-age=0, private, must-revalidate"
           ],
           "X-Request-Id": [
-            "4844f1a7-ae21-4749-a543-08f5d0463dbb"
+            "a48730db-9990-4435-8dc1-b4e2d0be97f6"
           ],
           "X-Runtime": [
-            "0.007456"
+            "0.008540"
           ],
           "Server-Timing": [
-            "start_processing.action_controller;dur=0.04, sql.active_record;dur=1.25, instantiation.active_record;dur=0.02, process_action.action_controller;dur=2.05"
+            "start_processing.action_controller;dur=0.04, sql.active_record;dur=1.33, instantiation.active_record;dur=0.02, process_action.action_controller;dur=2.39"
           ],
           "Transfer-Encoding": [
             "chunked"
@@ -74,7 +74,7 @@
           "string": "{\"data\":{\"id\":\"325933\",\"type\":\"market\",\"attributes\":{\"name\":\"Henry County Farmers Market\",\"street\":\"100 block of S Main Street\",\"city\":\"New Castle\",\"county\":\"Henry\",\"state\":\"Indiana\",\"zip\":\"47632\",\"lat\":\"39.9705\",\"lon\":\"-85.355\",\"vendor_count\":13}}}"
         }
       },
-      "recorded_at": "Fri, 08 Sep 2023 23:23:12 GMT"
+      "recorded_at": "Fri, 08 Sep 2023 23:23:07 GMT"
     }
   ],
   "recorded_with": "VCR 6.2.0"

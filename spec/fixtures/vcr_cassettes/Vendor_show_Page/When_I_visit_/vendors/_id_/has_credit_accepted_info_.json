@@ -3,7 +3,7 @@
     {
       "request": {
         "method": "get",
-        "uri": "http://localhost:3000/api/v0/markets/325933",
+        "uri": "http://localhost:3000/api/v0/vendors/55636",
         "body": {
           "encoding": "US-ASCII",
           "string": ""
@@ -51,19 +51,19 @@
             "Accept"
           ],
           "Etag": [
-            "W/\"850b733be40abf2bb6b89dea59026669\""
+            "W/\"251410543dfa45333ef06573489aae27\""
           ],
           "Cache-Control": [
             "max-age=0, private, must-revalidate"
           ],
           "X-Request-Id": [
-            "4844f1a7-ae21-4749-a543-08f5d0463dbb"
+            "7bf53169-ffbf-4ae4-aa1e-d2ba9a90492f"
           ],
           "X-Runtime": [
-            "0.007456"
+            "0.005598"
           ],
           "Server-Timing": [
-            "start_processing.action_controller;dur=0.04, sql.active_record;dur=1.25, instantiation.active_record;dur=0.02, process_action.action_controller;dur=2.05"
+            "start_processing.action_controller;dur=0.04, sql.active_record;dur=0.65, instantiation.active_record;dur=0.02, process_action.action_controller;dur=1.13"
           ],
           "Transfer-Encoding": [
             "chunked"
@@ -71,10 +71,10 @@
         },
         "body": {
           "encoding": "UTF-8",
-          "string": "{\"data\":{\"id\":\"325933\",\"type\":\"market\",\"attributes\":{\"name\":\"Henry County Farmers Market\",\"street\":\"100 block of S Main Street\",\"city\":\"New Castle\",\"county\":\"Henry\",\"state\":\"Indiana\",\"zip\":\"47632\",\"lat\":\"39.9705\",\"lon\":\"-85.355\",\"vendor_count\":13}}}"
+          "string": "{\"data\":{\"id\":\"55636\",\"type\":\"vendor\",\"attributes\":{\"name\":\"Elevated Elixir\",\"description\":\"Elevated kombucha with premium tea and herbs for a refined taste.\",\"contact_name\":\"Melida Hane LLD\",\"contact_phone\":\"928.894.1161\",\"credit_accepted\":false}}}"
         }
       },
-      "recorded_at": "Fri, 08 Sep 2023 23:23:12 GMT"
+      "recorded_at": "Fri, 08 Sep 2023 23:23:11 GMT"
     }
   ],
   "recorded_with": "VCR 6.2.0"
