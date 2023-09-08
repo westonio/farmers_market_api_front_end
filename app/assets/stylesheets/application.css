@@ -53,7 +53,7 @@ tbody tr:hover {
   color: #566246;
 }
 
-.market-vendors {
+.market-vendors, .vendor-info {
   margin-left: 15%;
   margin-top: 40px;
 }

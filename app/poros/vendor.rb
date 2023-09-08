@@ -20,6 +20,6 @@ class Vendor
   end
 
   def phone
-    @phone.gsub('.','-')
+    @contact_phone.gsub('.','-')
   end
 end
